@@ -329,6 +329,21 @@ a:active {
 .logo {
   width: 3rem;
 }
+.wordmark-wrapper {
+  width: 40%;
+}
+
+.wordmark {
+  fill: rgb(26, 128, 132);
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+  
+
+.wordmark:hover {
+  fill: black;
+}
 
 .hero-headline-wrapper {
   display: flex;
@@ -833,7 +848,7 @@ a.sub-navigation-link:hover {
   }
 
   .logo {
-    width: 25rem;
+    width: 15rem;
   }
 
   .hero {
