@@ -72,13 +72,13 @@ html {
   --body-typeface: "Inter", sans-serif;
   --heading-typeface: "Shadows Into Light", cursive;
   --project-title-typeface: 'Eczar', serif;
-  --background-color: #1596969a;
-  --background-color-about: #139ead6e;
-  --background-color-footer: #f5f5f5;    
+  --background-color:     #a9cbe0;
+  --background-color-about: #a9cbe0;
+  --background-color-footer: #a9cbe0;    
   --alt-background-color: #000000;
   --background-color-holding-page: rgba(4, 4, 5, 0.6);
   --h1-color: #f2f1f5;
-  --h2-color: #299a76;
+  --h2-color: #f1f7f7;
   --h3-color: #0d0915;
   --h4-color: #0b0813;
   --h5-color: #0b0713;
@@ -94,7 +94,7 @@ html {
   --hover-color: #111;
   --visited-color: #582d49;
   --project-title-color: #32274b;
-  --project-sidebar-background-color: transparent;
+  --project-sidebar-background-color:rgb(165, 142, 142) ;
   --project-sidebar-text-color: rgb(10, 9, 9);
   --heart-color: darkred;
   --holding-page-footer-color: #f8f8ff;
