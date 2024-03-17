@@ -9,8 +9,7 @@ Add the Google Fonts you want, remove the ones you don't.
 ██       ██████  ██   ████    ██    ███████ 
 
 */
-@import url('https://fonts.googleapis.com/css2?family=--heading-typeface,serif:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=--body-typeface+Bubbles:wght@400;700display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
 
 /*
 
@@ -69,35 +68,35 @@ html {
 /* Design variables refer to CSS variables that store specific design elements, such as colors and typography, which can be utilized throughout a website. Instead of individually modifying each CSS element, designers can quickly make changes by using design variables. Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Fuzzy Bubbles",sans-serif;
-  --heading-typeface: "Shadows Into Light", cursive;
-  --project-title-typeface: 'Eczar', serif;
-  --background-color:     #a9cbe0;
-  --background-color-about:  #a9cbe0;;
-  --background-color-footer: #a9cbe0;    
+  --body-typeface:  "Truculenta", sans-serif;
+  --heading-typeface:  "Fuzzy Bubbles", sans-serif;
+  --project-title-typeface:  "Fuzzy Bubbles", sans-serif;
+  --background-color:#3c6d8b;
+  --background-color-about:#3c6d8b;
+  --background-color-footer:#3c6d8b;    
   --alt-background-color: #000000;
   --background-color-holding-page: rgba(4, 4, 5, 0.6);
-  --h1-color: #f2f1f5;
-  --h2-color: #f1f7f7;
+  --h1-color: #000000;
+  --h2-color: #000000;
   --h3-color: #0d0915;
   --h4-color: #0b0813;
   --h5-color: #0b0713;
   --h6-color: #0d0916;
-  --primary-text-color: #222;
-  --holding-page-title-color: #5c0da1;
-  --accent-color: #000000;
-  --overlay-color: #000000;
+  --primary-text-color: #fffefe;
+  --holding-page-title-color: #06f51e;
+  --accent-color: #ffffff;
+  --overlay-color: #ffffff;
   --overlay-title-color: #ffffff;
   --overlay-description-color: #ffffff;
-  --hyperlink-color: #6a2f70;
+  --hyperlink-color: #f4f0f5;
   --hyperlink-alternate-color: orangered;
   --hover-color: #111;
-  --visited-color: #582d49;
-  --project-title-color: #32274b;
-  --project-sidebar-background-color:rgb(165, 142, 142) ;
-  --project-sidebar-text-color: rgb(10, 9, 9);
+  --visited-color: #efeaed;
+  --project-title-color: #060507;
+  --project-sidebar-background-color:transparent;
+  --project-sidebar-text-color: rgb(253, 253, 253);
   --heart-color: darkred;
-  --holding-page-footer-color: #444496;
+  --holding-page-footer-color: #030303;
   --text-selection-background-color: #5200ff;
   --linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
@@ -107,7 +106,7 @@ html {
 
   
 body {
-  font-family: var(--heading-typeface "Cinzel", serif);
+  font-family: var(--heading-typefac);
   color: var(--primary-text-color);
   background: var(--background-color);
   display: flex;
