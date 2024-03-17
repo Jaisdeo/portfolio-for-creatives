@@ -97,7 +97,7 @@ html {
   --project-sidebar-background-color:rgb(165, 142, 142) ;
   --project-sidebar-text-color: rgb(10, 9, 9);
   --heart-color: darkred;
-  --holding-page-footer-color: #f8f8ff;
+  --holding-page-footer-color: #444496;
   --text-selection-background-color: #5200ff;
   --linear-gradient-color-1: #ff057c;
   --linear-gradient-color-2: #8d0b93;
@@ -105,9 +105,9 @@ html {
   --stroke-shadow-color: rgba(0, 0, 0, 0.4);
 }
 
-
+  
 body {
-  font-family: var(italic);
+  font-family: var(serif);
   color: var(--primary-text-color);
   background: var(--background-color);
   display: flex;
@@ -146,14 +146,14 @@ svg {
 
 h1 {
   font-size: 2rem;
-  font-family: var(italic);
+  font-family: var(serif);
   margin-bottom: 1rem;
   color: var(--h1-color);
 }
 
 h2 {
   font-size: 2.25rem;
-  font-family: var(italic);
+  font-family: var(serif);
   margin-bottom: 1rem;
   color: var(--h2-color);
 }
@@ -190,7 +190,7 @@ p {
 }
 
 em {
-  font-style: italic;
+  font-style: serif;
 }
 
 .fineprint {
@@ -203,7 +203,7 @@ em {
 
 .project-title {
   font-size: 3.725rem;
-  font-family: var(italic);
+  font-family: var(serif);
   color: var(--project-title-color);
   margin-bottom: 1rem;
 }
@@ -334,7 +334,7 @@ a:active {
 }
 
 .wordmark {
-  fill: rgb(26, 128, 132);
+  fill: rgb(132, 26, 121);
   transition: 200ms;
   transition-timing-function: ease-in-out;
 }
