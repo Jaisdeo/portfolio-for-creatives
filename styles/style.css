@@ -9,8 +9,8 @@ Add the Google Fonts you want, remove the ones you don't.
 ██       ██████  ██   ████    ██    ███████ 
 
 */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=--heading-typeface,serif:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=--body-typeface+Bubbles:wght@400;700&display=swap');
 
 /*
 
@@ -69,7 +69,7 @@ html {
 /* Design variables refer to CSS variables that store specific design elements, such as colors and typography, which can be utilized throughout a website. Instead of individually modifying each CSS element, designers can quickly make changes by using design variables. Adjust the variables below, create new variables as desired, and delete the variables that you do not want to use. */
 
 :root {
-  --body-typeface: "Inter", sans-serif;
+  --body-typeface: "Fuzzy Bubbles",sans-serif;
   --heading-typeface: "Shadows Into Light", cursive;
   --project-title-typeface: 'Eczar', serif;
   --background-color:     #a9cbe0;

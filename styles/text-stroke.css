@@ -13,7 +13,7 @@
     background-image: linear-gradient(to right, #09f1b8, #00a2ff, #ff00d2, #fed90f);
     color: whitesmoke;
     font-size: 40vmin;
-    font-size: var(serif);
+    font-size: var(--heading-typeface italic);
     font-weight: 700;
     font-weight: var(--font-weight);
     letter-spacing: calc(1em / 8);
