@@ -73,7 +73,7 @@ html {
   --heading-typeface: "Shadows Into Light", cursive;
   --project-title-typeface: 'Eczar', serif;
   --background-color:     #a9cbe0;
-  --background-color-about: #a9cbe0;
+  --background-color-about:  #a9cbe0;;
   --background-color-footer: #a9cbe0;    
   --alt-background-color: #000000;
   --background-color-holding-page: rgba(4, 4, 5, 0.6);
@@ -107,7 +107,7 @@ html {
 
   
 body {
-  font-family: var(serif);
+  font-family: var(--heading-typeface "Cinzel", serif);
   color: var(--primary-text-color);
   background: var(--background-color);
   display: flex;
@@ -146,14 +146,14 @@ svg {
 
 h1 {
   font-size: 2rem;
-  font-family: var(serif);
+  font-family: var(--heading-typeface "Cinzel", serif);
   margin-bottom: 1rem;
   color: var(--h1-color);
 }
 
 h2 {
   font-size: 2.25rem;
-  font-family: var(serif);
+  font-family: var(--heading-typeface "Cinzel", serif);
   margin-bottom: 1rem;
   color: var(--h2-color);
 }
