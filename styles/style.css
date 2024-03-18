@@ -145,14 +145,14 @@ svg {
 
 h1 {
   font-size: 2rem;
-  font-family: var(--heading-typeface "Cinzel", serif);
+  font-family: var(--project-title-typeface);
   margin-bottom: 1rem;
   color: var(--h1-color);
 }
 
 h2 {
   font-size: 2.25rem;
-  font-family: var(--heading-typeface "Cinzel", serif);
+  font-family: var(--project-title-typeface);
   margin-bottom: 1rem;
   color: var(--h2-color);
 }
@@ -189,7 +189,7 @@ p {
 }
 
 em {
-  font-style: serif;
+  font-style:(--project-title-typeface);
 }
 
 .fineprint {
@@ -202,7 +202,7 @@ em {
 
 .project-title {
   font-size: 3.725rem;
-  font-family: var(serif);
+  font-family: var(serif--project-title-typeface);
   color: var(--project-title-color);
   margin-bottom: 1rem;
 }
@@ -333,7 +333,7 @@ a:active {
 }
 
 .wordmark {
-  fill: rgb(132, 26, 121);
+  fill: rgb(56, 3, 50);
   transition: 200ms;
   transition-timing-function: ease-in-out;
 }
