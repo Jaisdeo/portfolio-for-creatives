@@ -609,7 +609,7 @@ a:active {
   min-height: 100vh;
   /* Delete the following if you do not want a grainy gradient background on the holding page */
   background:
-    linear-gradient(0deg, rgba(0, 0, 0, 1), var(--background-color-holding-page)),
+    linear-gradient(0deg, #3c6d8b, var(--background-color-holding-page)),
     url(/assets/temp/noise.svg);
   /* For more on grainy gradients see https://grainy-gradients.vercel.app/ */
 }
