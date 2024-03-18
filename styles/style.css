@@ -573,11 +573,6 @@ a:active {
   align-items: center;
   justify-content: center;
 }
-
-.large-emoji-placeholder {
-  font-size: 12rem; /* This is for making the placeholder emojis large and should be deleted */
-}
-
 .text-section {
   width: 100%;
 }
@@ -951,13 +946,7 @@ a.sub-navigation-link:hover {
   .project-details {
     width: 65%;
   }
-
-  .project-image {
-    min-height: 70vh;
-    /* This should be deleted if you want to remove space between project images on project pages */
-  }
-
-  .project-image-container {
+ .project-image-container {
     flex-direction: row;
   }
 
